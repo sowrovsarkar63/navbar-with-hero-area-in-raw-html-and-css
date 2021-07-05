@@ -1,0 +1,85 @@
+/*------------------------ Global CSS ----------------------------------
+---------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo {
+  font-size: 40px;
+  font-weight: bold;
+  color: blue;
+  text-decoration: none;
+  width: 100px;
+  height: auto;
+  margin: 20px 30px;
+}
+
+.header-area {
+  background-image: url(./images/cool-background.svg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.navbar {
+  list-style-type: none;
+  float: right;
+  margin-top: 30px;
+}
+
+.navbar li {
+  display: inline-block;
+}
+.navbar li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px 20px;
+}
+
+.navbar li a:hover {
+  background: #fff;
+  color: #333;
+}
+
+/* header hero area */
+.header-hero-area {
+  text-align: center;
+  margin-top: 15%;
+  padding: 40px;
+}
+.header-hero-area h2 {
+  color: white;
+  font-size: 45px;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.header-hero-area p {
+  font-weight: 600;
+  line-height: 20px;
+  padding: 15px;
+  margin: 0 auto;
+  color: #fff;
+  width: 450px;
+  margin-bottom: 50px;
+}
+
+.link-button {
+  text-decoration: none;
+  padding: 10px 30px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  border: 2px solid red;
+
+  border-radius: 5px;
+}
+.link-button :hover {
+  background: blue;
+  color: #fff;
+}
